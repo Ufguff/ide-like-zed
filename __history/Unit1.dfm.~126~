@@ -1,0 +1,179 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Anchors = [akLeft, akTop, akBottom]
+  Caption = 'Form1'
+  ClientHeight = 713
+  ClientWidth = 1196
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Menu = MainMenu1
+  DesignSize = (
+    1196
+    713)
+  TextHeight = 15
+  object TabControl1: TTabControl
+    Left = 168
+    Top = 3
+    Width = 1025
+    Height = 25
+    Align = alCustom
+    Anchors = [akLeft, akTop, akRight]
+    ParentShowHint = False
+    RaggedRight = True
+    ShowHint = True
+    TabOrder = 0
+    OnChange = TabControl1Change
+    OnMouseDown = TabControl1MouseDown
+    ExplicitWidth = 1015
+  end
+  object RichEditMain: TRichEdit
+    Left = 168
+    Top = 34
+    Width = 1033
+    Height = 651
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    HideScrollBars = False
+    Lines.Strings = (
+      'RichEditMain')
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 1
+    OnChange = RichEditMainChange
+    OnClick = RichEditMainClick
+    OnKeyDown = RichEditMainKeyDown
+    OnKeyPress = RichEditMainKeyPress
+    ExplicitWidth = 1023
+    ExplicitHeight = 619
+  end
+  object StatusBar1: TStatusBar
+    AlignWithMargins = True
+    Left = 3
+    Top = 691
+    Width = 1190
+    Height = 19
+    BiDiMode = bdRightToLeft
+    Panels = <
+      item
+        Bevel = pbNone
+        BiDiMode = bdRightToLeftNoAlign
+        ParentBiDiMode = False
+        Text = 'Language'
+        Width = 100
+      end
+      item
+        Alignment = taRightJustify
+        BiDiMode = bdRightToLeftReadingOnly
+        ParentBiDiMode = False
+        Text = '0:0'
+        Width = 100
+      end>
+    ParentBiDiMode = False
+    SimpleText = #9#9#9#9#9#9#9#9#9#9#9#9#9#9#9#9
+    ExplicitTop = 659
+    ExplicitWidth = 1180
+  end
+  object TreeView1: TTreeView
+    Left = 0
+    Top = 3
+    Width = 162
+    Height = 682
+    Anchors = [akLeft, akTop, akBottom]
+    Indent = 19
+    MultiSelect = True
+    ReadOnly = True
+    TabOrder = 3
+    OnChange = TreeView1Change
+    OnMouseDown = TreeView1MouseDown
+    ExplicitHeight = 650
+  end
+  object MainMenu1: TMainMenu
+    AutoHotkeys = maManual
+    Left = 600
+    Top = 408
+    object test1: TMenuItem
+      Caption = 'test'
+      object Open1: TMenuItem
+        Caption = 'Open'
+        OnClick = Open1Click
+      end
+    end
+  end
+  object ActionManager1: TActionManager
+    Left = 328
+    Top = 352
+    StyleName = 'Platform Default'
+  end
+  object OpenDialogFolder: TOpenDialog
+    Left = 328
+    Top = 264
+  end
+  object PopupMenuFiles: TPopupMenu
+    Left = 872
+    Top = 264
+    object N7: TMenuItem
+      Caption = #1053#1086#1074#1099#1081' '#1092#1072#1081#1083
+      OnClick = N7Click
+    end
+    object N8: TMenuItem
+      Caption = #1053#1086#1074#1072#1103' '#1087#1072#1087#1082#1072
+    end
+    object N9: TMenuItem
+      Caption = #1042#1099#1088#1077#1079#1072#1090#1100
+    end
+    object N10: TMenuItem
+      Caption = #1057#1082#1086#1087#1080#1088#1086#1074#1072#1090#1100
+    end
+    object N11: TMenuItem
+      Caption = #1042#1089#1090#1072#1074#1080#1090#1100
+    end
+    object N12: TMenuItem
+      Caption = #1050#1086#1087#1080#1088#1086#1074#1072#1090#1100' '#1087#1091#1090#1100
+      OnClick = N12Click
+    end
+    object N13: TMenuItem
+      Caption = #1050#1086#1087#1080#1088#1086#1074#1072#1090#1100' '#1086#1090#1085#1086#1089#1080#1090#1077#1083#1100#1085#1099#1081' '#1087#1091#1090#1100
+      OnClick = N13Click
+    end
+    object N14: TMenuItem
+      Caption = #1055#1077#1088#1077#1080#1084#1077#1085#1086#1074#1072#1090#1100
+    end
+    object N15: TMenuItem
+      Caption = #1059#1076#1072#1083#1080#1090#1100
+      OnClick = N15Click
+    end
+  end
+  object PopupMenuTabs: TPopupMenu
+    Left = 944
+    Top = 432
+    object N1: TMenuItem
+      Caption = #1047#1072#1082#1088#1099#1090#1100
+      OnClick = N1Click
+    end
+    object N2: TMenuItem
+      Caption = #1047#1072#1082#1088#1099#1090#1100' '#1086#1089#1090#1072#1083#1100#1085#1099#1077
+      OnClick = N2Click
+    end
+    object N3: TMenuItem
+      Caption = #1047#1072#1082#1088#1099#1090#1100' '#1074#1089#1077
+      OnClick = N3Click
+    end
+    object N4: TMenuItem
+      Caption = #1050#1086#1087#1080#1088#1086#1074#1072#1090#1100' '#1087#1091#1090#1100
+      OnClick = N4Click
+    end
+    object N5: TMenuItem
+      Caption = #1050#1086#1087#1080#1088#1086#1074#1072#1090#1100' '#1086#1090#1085#1086#1089#1080#1090#1077#1083#1100#1085#1099#1081' '#1087#1091#1090#1100
+      OnClick = N5Click
+    end
+  end
+end

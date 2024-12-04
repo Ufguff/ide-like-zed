@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.757,C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Ufguff\Documents\0 PROGRAMMING\5 Visual Programming\SemesterWork\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.584,=C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.757,C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Ufguff\Documents\0 PROGRAMMING\5 Visual Programming\SemesterWork\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Ufguff\Documents\0 PROGRAMMING\5 Visual Programming\SemesterWork\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.431,=C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.141,=C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.301,=C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.007,C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Ufguff\Documents\0 PROGRAMMING\5 Visual Programming\SemesterWork\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.757,C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Ufguff\Documents\0 PROGRAMMING\5 Visual Programming\SemesterWork\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.620,=C:\Users\Ufguff\Documents\0 PROGRAMMING\5 Visual Programming\SemesterWork\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.182,=C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.376,=C:\Users\Ufguff\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024.12.03 15:08:02.445,=C:\Users\Ufguff\Documents\0 PROGRAMMING\5 Visual Programming\SemesterWork\Unit2.cpp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit2.h"/>
+  </ProjectSortOrder>
+</BorlandProject>
